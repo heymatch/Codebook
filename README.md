@@ -1,3 +1,3 @@
 # Codebook
 
-/Record our code and note to contest
+Record our code and note to contest
