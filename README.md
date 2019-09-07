@@ -8,6 +8,7 @@ We are students who wants to join programming competitive contests. This is our 
 ## contest
 
 X : Not join
+
 | Date | Contest | Match | Lai | Lem |
 | --- | --- | --- | --- | --- |
 | 2019/6/5 | ITSA 72 | 3 | X | 2 |
