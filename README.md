@@ -1,6 +1,6 @@
 # Codebook
 
-We are students who wants to join programming competitive contests. This is our notes.
+We are students who want to join programming competitive contests. This is our note.
 
 ## member
 
