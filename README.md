@@ -9,13 +9,13 @@ Hope you could learn how to use and write git, latex and markdown here.
 ## member
 Jin  
 Lai  
-Lem  
+Lam  
 
 ## contest
 
 X : Not join
 
-| Date | Contest | Jin | Lai | Lem | Group |
+| Date | Contest | Jin | Lai | Lam | Group |
 | --- | --- | --- | --- | --- | --- |
 | 2019/6/5 | ITSA 72 | 3 | X | 2 | |
 | 2019/8/14 | ITSA 73 | 3 | 2 | X | |
