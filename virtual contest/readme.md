@@ -1,1 +1,0 @@
-Record every virtual contest
