@@ -5,5 +5,5 @@ This is made by LaTeX.
 ## codestyle.tex
 Some syntax, color, format setting
 
-## Codebook.pdf
+## release/Codebook.pdf
 Output file
