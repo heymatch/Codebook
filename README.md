@@ -1,6 +1,7 @@
 # Codebook
 
-We are students who want to join programming competitive contests. This is our note.
+We are students who want to join programming competitive contests. This is our note.  
+Hope you can learn how to use and write git, latex and markdown.  
 
 ## member
 Jin
