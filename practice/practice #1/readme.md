@@ -38,12 +38,12 @@ By Jin
 
 ### Basic
 C++ \<algorithm\> library:  
-
+Some useful function like sort, swap, for_each
 
 ### DS
 Stack:  
-
+FILO
 
 ### ALG
 Prime Number:  
-
+How to create a prime table quickly
