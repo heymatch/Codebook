@@ -17,5 +17,5 @@ reference set(size_t, bool) //single
 reference reset() //all
 reference reset(size_t) //single
 string to_string()
-string to_ulong()
-string to_ullong()
+unsigned long to_ulong()
+unsigned long long to_ullong()

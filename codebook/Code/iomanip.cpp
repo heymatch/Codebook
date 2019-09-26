@@ -1,11 +1,7 @@
-template <class InputIterator, class value_type>
-InputIterator find(InputIterator first, InputIterator last, value_type val)
+setfill(char_type)
 
-template <class RandomAccessIterator>
-void sort(RandomAccessIterator first, RandomAccessIterator last)
+setprecision(int)
 
-template <class RandomAccessIterator, class Compare>
-void sort(RandomAccessIterator first, RandomAccessIterator last, Compare comp)
+setw(int)
 
-template <class ForwardIterator, class value_type>
-bool binary_search(ForwardIterator first, ForwardIterator last, value_type val)
+setbase(int) //10, 8, 16
