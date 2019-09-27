@@ -1,23 +1,82 @@
 \title{Codebook}
-\author{}
+\author{Jin, Lai, Lam from YZU}
 \date{\today}
-\documentclass[a4paper, 12pt]{article}
+\documentclass[a4paper, landscape, 8pt]{article}
 \include{codestyle}
 
 \begin{document}
-
-\begin{multicols*}{2}
+\begin{multicols*}{3}
 \maketitle
 \tableofcontents
 
-\section{Introduction}
-This is the first line in this codebook.
-\subsection{code}
-There will be some code here.
-\lstinputlisting[language=c++]{Code/example.cpp}
+\section{Environment}
+\subsection{.vimrc}
+\lstinputlisting[language=vim]{Code/.vimrc}
+\subsection{compile}
+\lstinputlisting[language=sh]{Code/compile.sh}
+\subsection{copy}
+\lstinputlisting[language=sh]{Code/copy.sh}
+\subsection{template}
+\lstinputlisting[language=c++]{Code/template.cpp}
 
-\lstinputlisting[language=c++]{Code/class.cpp}
+\section{Data Structure}
+\subsection{Binary Tree}
+\lstinputlisting[language=c++]{Code/binary_tree.cpp}
+\subsection{Graph}
+\lstinputlisting[language=c++]{Code/graph.cpp}
+
+\section{Algorithm}
+\subsection{DFS}
+\lstinputlisting[language=c++]{Code/DFS.cpp}
+\subsection{BFS}
+\lstinputlisting[language=c++]{Code/BFS.cpp}
+\subsection{Floyd-Warshall}
+\lstinputlisting[language=c++]{Code/FloydWarshall.cpp}
+
+\section{Container}
+\subsection{vector}
+\lstinputlisting[language=c++]{Code/vector.cpp}
+\subsection{stack}
+\lstinputlisting[language=c++]{Code/stack.cpp}
+\subsection{queue}
+\lstinputlisting[language=c++]{Code/queue.cpp}
+\subsection{priority\_queue}
+\lstinputlisting[language=c++]{Code/priority_queue.cpp}
+\subsection{set}
+\lstinputlisting[language=c++]{Code/set.cpp}
+\subsection{map}
+\lstinputlisting[language=c++]{Code/map.cpp}
+\subsection{list}
+\lstinputlisting[language=c++]{Code/list.cpp}
+
+\section{Method}
+\subsection{algorithm}
+\lstinputlisting[language=c++]{Code/algorithm.cpp}
+\subsection{bitset}
+\lstinputlisting[language=c++]{Code/bitset.cpp}
+\subsection{cmath}
+\lstinputlisting[language=c++]{Code/cmath.cpp}
+\subsection{iomanip}
+\lstinputlisting[language=c++]{Code/iomanip.cpp}
+
+\section{Note}
+\subsection{Preparing}
+\begin{lstlisting}[]
+check keyboard
+check mouse
+build environment(vim, g++, shell)
+check judge system
+check response message
+\end{lstlisting}
+\subsection{Response Message}
+\begin{lstlisting}[]
+//for DOMjudge
+CORRECT
+COMPILER-ERROR
+TIMELIMIT
+RUN-ERROR
+WRONG-ANSWER
+\end{lstlisting}
 
 \end{multicols*}
-
 \end{document}
