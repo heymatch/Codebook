@@ -11,6 +11,6 @@ void Floyd_Warshall(){
 	for(all i, j, k)
 		Graph[i][j] = min(Graph[i][j], Graph[i][k] + Graph[k][j])
 	
-	print Graph[x][y] //get shortest path form x to y
+	print Graph[x][y] //get shortest path from x to y
 }
 
