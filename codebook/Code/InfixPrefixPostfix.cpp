@@ -31,5 +31,5 @@ void convertInfixToPostfix(){
 		}
 	}
 	while(!op.empty())
-		output[index++] = op,pop()
+		output[index++] = op.pop()
 }
