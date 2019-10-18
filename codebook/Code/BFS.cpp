@@ -1,7 +1,4 @@
-void BFS(){
-	Graph[][]
-	visited[][] = {}
-	FirstNode
+void BFS(Graph, visited, FirstNode){
 	queue Q
 	Q.push(FirstNode)
 	while(!Q.empty){

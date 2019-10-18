@@ -1,8 +1,7 @@
 //equation from infix to postfix
-void convertInfixToPostfix(){
+void convertInfixToPostfix(char input[]){
 	setOperatorPriority() //0 is the largest
 	stack op
-	char input[]
 	char output[]
 	int index
 	for(all i in input){

@@ -1,8 +1,6 @@
-void Floyd_Warshall(){
-	INF
-	int Graph[][] //edge length
+#define INF 0xFFFFFFFF
+void Floyd_Warshall(int Graph[][]/*edge length*/, visit[][]){
 	int distance[]
-	bool visit[]
 	
 	for(all i, j)
 		if(i == j)
@@ -12,15 +10,15 @@ void Floyd_Warshall(){
 	read Graph
 	read keypoint
 	for(all i)
-		distance[i] = e[keypoint][i];
+		distance[i] = Graph[keypoint][i];
 	
 	visit[keypoint] = true
 	for(all i){
-		minimum = INF
+		min = INF
 		int u
 		for(all j){
 			if(!visit[j] && distance[j] < min){
-				min = distance[j];
+				min = distance[j]
 				u = j
 			}
 		}

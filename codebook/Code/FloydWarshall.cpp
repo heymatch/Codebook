@@ -1,7 +1,5 @@
-void Floyd_Warshall(){
-	INF
-	int Graph[][] //edge length
-	
+#define INF 0xFFFFFFFF
+void Floyd_Warshall(int Graph //edge length){
 	for(all i, j)
 		if(i == j)
 			Graph[i][j] = 0
