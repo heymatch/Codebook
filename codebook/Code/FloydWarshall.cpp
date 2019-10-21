@@ -1,7 +1,5 @@
-void Floyd_Warshall(){
-	INF
-	int Graph[][] //edge length
-	
+#define INF 0xFFFFFFFF
+void Floyd_Warshall(int Graph //edge length){
 	for(all i, j)
 		if(i == j)
 			Graph[i][j] = 0
@@ -11,6 +9,6 @@ void Floyd_Warshall(){
 	for(all i, j, k)
 		Graph[i][j] = min(Graph[i][j], Graph[i][k] + Graph[k][j])
 	
-	print Graph[x][y] //get shortest path form x to y
+	print Graph[x][y] //get shortest path from x to y
 }
 
