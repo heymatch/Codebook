@@ -1,4 +1,4 @@
-#copy template file
+#	copy template file
 #!bin/bash
 for name in {A..M};
 do

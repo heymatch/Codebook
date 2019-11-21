@@ -1,4 +1,4 @@
-//template to code in C++
+//	template to code in C++
 #include <bits/stdc++.h>
 typedef unsigned long long ull;
 typedef long long ll;

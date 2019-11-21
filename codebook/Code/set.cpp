@@ -1,16 +1,19 @@
-//template
+//	template
 template <class value_type>
-//init
+//	init
 set <value_type>
-//iterator
+//	iterator
 iterator begin()
 iterator end()
-//capacity
+//	capacity
 size_type size()
 bool empty()
-//oprations
+//	oprations
 iterator find(value_type)
 size_type count(value_type)
-//modifiers
+//	modifiers
 pair<iterator, bool> insert(value_type)
 size_type erase(value_type)
+
+//	multiset
+size_type count(value_type) //return the number of element
