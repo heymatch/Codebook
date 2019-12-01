@@ -1,0 +1,44 @@
+\subsection{Population Count}
+In Binary City, there are numberous houses. The city government numbered the house from $1$ to $n$. Amazingly, house $k$ can accoummodate up to $c(k)$ persons where $c(k)$ is the number of $1$'s in the binary representation of $k$. For example, house $113$ can accommedate $4$ persons, since $113$ in decimal is $1110001_2$ in binary numberal system.
+
+After the mayor of Binary City proposed his "Make Big Money!" project, numerous people moved to Binary City, since they want to become the richest people in the world. Now, all houses in Binary City are full of people.
+
+The civil affairs director of Binary City asks you to help the city government to do some statistics for answering inquireies from the city council. Each inquiry consists of two integers $b$ and $e$, and your task is to compute the population living in houses $b, b+1, ..., e-1, e$ which is $\sum_{k=b}^e c(k)$.
+
+\begin{flushleft}
+{\color{red} \textbf{Input}}
+\end{flushleft}
+The first line if the input contains an integer $m$ indicating the number of inquiries. Each of the following lines is an inquiry, and there are two numbers $b$ and $e$ separated by blanks.
+
+\begin{flushleft}
+{\color{red} \textbf{Output}}
+\end{flushleft}
+For each inquiry, output the population living in houses $b, b+1, ..., e-1, e$ on one line.
+
+\begin{flushleft}
+{\color{red} \textbf{Technical Specification}}
+\end{flushleft}
+\begin{itemize}
+\item $1 \leq m \leq 20$, $1 \leq b \leq e \leq 10^4$, and $e \leq n$.
+\end{itemize}
+
+\begin{flushleft}
+{\color{red} \textbf{Sample Input}}
+\end{flushleft}
+\begin{flushleft}
+3\\
+1 10\\
+113 113\\
+1 10000\\
+\end{flushleft}
+
+\begin{flushleft}
+{\color{red} \textbf{Sample Output}}
+\end{flushleft}
+\begin{flushleft}
+17\\
+4\\
+64613\\
+\end{flushleft}
+
+\newpage

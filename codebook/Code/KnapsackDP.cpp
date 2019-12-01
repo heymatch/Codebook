@@ -37,3 +37,26 @@ void change(int m){
 	print m //target money
 	print c[m] //kinds
 }
+
+/*
+	Knapsack/Coin Problem - Algorithm
+	first loop is item
+	Second loop is capacity (weight/value target)
+	Third loop(only appear in iteam limit case) = max(number amount, now value/this value)
+	
+	backpack structure:
+	Struct {weight,cost}
+	
+	w-weight[n] meaning I push this I item
+	n-1 meaning look forward
+	
+	Code:
+	c[i] = max (c[i],c[i - weight[n]] + cost[n]) - consider value
+	c[i] = max (c[i],c[i - weight[n]] +1) - consider amount of item
+	way[j] += way[j - weight[i]] - consider ways
+	
+	Coin (like as backpack):
+	Code:
+	c[j] += c[j-price[i]]; << ways
+	c[j] = min(c[j], c[j-price[i]] + 1); - min amount of coin
+*/

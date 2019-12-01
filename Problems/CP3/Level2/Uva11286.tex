@@ -1,0 +1,41 @@
+\subsection{UVa11286 - Comformity}
+Frosh commencing their studies at Waterloo have diverse interests, as evidenced by their desire to take various combinations of courses from among those avaliable.
+
+University administrators are uncomfortable with this situation, and therefore wish to offer a \textit{comformity prize} to frosh who choose the most popular combination of courses. How many frosh will win the prize?
+
+\begin{flushleft}
+{\color{red} \textbf{Input}}
+\end{flushleft}
+The input consists of several test cases followed by a line containing '$0$'. Each test case begins with as integer $1 \leq n \leq 10000$, the number of frosh. For each frosh, a line follows containing the course numbers of five distinct courses selected by the frosh. Each course number is an integer between $100$ and $499$.
+
+The \textit{popularity} of a combination is the number of frosh selecting exactly the same conbination of courses. A conbination of courses is considered \textit{most popular} if no other combination has higher popularity.
+
+\begin{flushleft}
+{\color{red} \textbf{Output}}
+\end{flushleft}
+For each line of input, you should output a single line giving the total number of students taking some combination of courses that is most popular.
+
+\begin{flushleft}
+{\color{red} \textbf{Sample Input}}
+\end{flushleft}
+\begin{flushleft}
+3\\
+100 101 102 103 488\\
+100 200 300 101 102\\
+103 102 101 488 100\\
+3\\
+200 202 204 206 208\\
+123 234 345 456 321\\
+100 200 300 400 444\\
+0\\
+\end{flushleft}
+
+\begin{flushleft}
+{\color{red} \textbf{Sample Output}}
+\end{flushleft}
+\begin{flushleft}
+2\\
+3\\
+\end{flushleft}
+
+\newpage

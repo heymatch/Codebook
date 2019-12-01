@@ -1,0 +1,85 @@
+\subsection{Automatic Control Machine}
+Angela is very envious of beautiful long hair. She is very annoyed that her hair grows too slow. Through a friend's suggestion, she found a magical shampoo that claims to make hair grow fast and long. Angela found that each time she used the magical shampoo, her hair would be 10\% longer the next day. Angela regularly shapoos her hair once every 3 days, and she uses the magical shampoo whenever she washes her hair. However, Angela's family loves to travel. Every two weeks, they will use the weekend to travel for two days. If she encounters regular shampoo on those two days, Angela can only use the regular shampoo given by the hotel. Angela just came back from a family tour yesterday. Let today be the first day, as the family travel tour is scheduled on every other weekend, next trip will be on the 13th and 14th days. Suppose that her current hair length is 20 cm and she starts to use the magical shampoo starting from today. On the second day, her hair length will become 22 cm. On the fourth day she will wash her hair again and her hair has a length of 24.2 cm on the fifth day, etc. Abgela's hair length is illustrated as Table 1.
+
+\begin{center}
+Table 1: The day-by-day variation of Angela's hair length.
+\begin{tabular}[c]{| l | l | l | l | l | l | l |}
+\hline
+Day & Hair length & Action & & Day & Hair length & Action\\
+\hline
+1 & 20 & shampoo & & 13 & 29.282 & shampoo, travel\\
+\hline
+2 & 22 & & & 14 & 29.282 & travel\\
+\hline
+3 & 22 & & & 15 & 29.282 &\\
+\hline
+4 & 22 & shampoo  & & 16 & 29.282 & shampoo\\
+\hline
+5 & 24.2 & & & 17 & 32.2102 &\\
+\hline
+6 & 24.2 & & & 18 & 32.2102 &\\
+\hline
+7 & 24.2 & shampoo & & 19 & 32.2102 & shampoo\\
+\hline
+8 & 26.62 & & & 20 & 35.43122 &\\
+\hline
+9 & 26.62 & & & 21 & 35.43122 &\\
+\hline
+10 & 26.62 & shampoo & & 22 & 35.43122 & shampoo\\
+\hline
+11 & 29.282 & & & 23 & 38.974342 &\\
+\hline
+12 & 29.282 & & & 24 & 38.974342 &\\
+\hline
+\end{tabular}
+\end{center}
+
+By Table 1, Angela's hair will be more than 30 cm on the 17th day and more than 35 cm from the 20th day. Please help Angela to find on which day her hair will reach (or beyond) a certain length.
+
+\begin{flushleft}
+{\color{red} \textbf{Input}}
+\end{flushleft}
+The first line contain an integer $T$ indicating the number of test cases, following $T$ lines each contains two space-separated integers $A$ and $B$ indicating the length of Angela's hair now and the desired length (both in cm), respectively.
+\begin{itemize}
+\item $1 \leq T \leq 10$
+\item $10 \leq A \leq B \leq 2147483647$
+\end{itemize}
+
+\begin{flushleft}
+{\color{red} \textbf{Output}}
+\end{flushleft}
+For each test case, please output one line containing only one integer indicating the day number of the first day for Angela to have hair length reach (or beyond) the desired length.
+
+\begin{flushleft}
+{\color{red} \textbf{Sample Input}}
+\end{flushleft}
+\begin{flushleft}
+1\\
+20 30\\
+\end{flushleft}
+
+\begin{flushleft}
+{\color{red} \textbf{Sample Output}}
+\end{flushleft}
+\begin{flushleft}
+17\\
+\end{flushleft}
+
+\begin{flushleft}
+{\color{red} \textbf{Sample Input}}
+\end{flushleft}
+\begin{flushleft}
+2\\
+20 35\\
+10 20\\
+\end{flushleft}
+
+\begin{flushleft}
+{\color{red} \textbf{Sample Output}}
+\end{flushleft}
+\begin{flushleft}
+20\\
+26\\
+\end{flushleft}
+
+\newpage

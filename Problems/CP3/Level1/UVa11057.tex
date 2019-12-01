@@ -1,0 +1,38 @@
+\subsection{UVa11057 -  Exact Sum}
+Peter received money from his parents this week and wants to spend it all buying books. But he does not read a book so fast, because he likes to enjoy every single word while he is reading. In this way, it takes him a week to finish a book.
+
+As Peter receives money every two weeks, he dicided to buy two books. then he can read them until receive more money. As he withes to spend all the money, he should choose two books whose prives summed up are equal to the money that he has. It is a little bit difficult to find these books, so Peter asks your help to find them.
+
+\begin{flushleft}
+{\color{red} \textbf{Input}}
+\end{flushleft}
+Each test case starts with $2 \leq N \leq 10000$, the number of available books. Next line will have $N$ integers, representing the price of each book, a book costs less than 1000001. Then there is another line with an integer $M$, representing how much money Peter has. There is a blank line after each test case. The input is terminated by end of file (EOF).
+
+\begin{flushleft}
+{\color{red} \textbf{Output}}
+\end{flushleft}
+For each test case you must pront hte message: 'Peter should buy books whose prices are $i$ and $j$.', where $i$ and $j$ are the prices of the books whose sum is equal do $M$ and $i \leq j$. You can consider that is always possible to find a solution, if there are multiple solutions print the solution that minimizes the difference between the prices $i$ and $j$. After each test case you mst print a blank line.
+
+\begin{flushleft}
+{\color{red} \textbf{Sample Input}}
+\end{flushleft}
+\begin{flushleft}
+2\\
+40 40\\
+80\\
+5\\
+10 2 6 8 4\\
+10\\
+\end{flushleft}
+
+\begin{flushleft}
+{\color{red} \textbf{Sample Output}}
+\end{flushleft}
+\begin{flushleft}
+Peter should buy books whose prices are 40 and 40.\\
+\bigskip
+Peter should buy books whose prices are 4 and 6.\\
+\bigskip
+\end{flushleft}
+
+\newpage

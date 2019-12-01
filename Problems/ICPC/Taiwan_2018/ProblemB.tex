@@ -1,0 +1,57 @@
+\subsection{No Tabs}
+Disaster is coming! A virus named \textbf{TABX-4869} is developed by a mad scientist. \textbf{TABX-4869} can infect all creatures on a planet instantly. People infected with \textbf{TABX-4869} will always enter TAB when they want to enter SPACE!
+
+The mad scientist plans to spread \textbf{TABX-4869} to the whole galaxy through star routes. The galaxy contains $N$ plantes and $M$ undirected routes. \textbf{TABX-4869} can spread to all neighbor planets at a time, but it needs $D$ time unit(s) when sperad through a route with distance $D$. You can assume that the galaxy is connected via star routes.
+
+To prevent the worst, the Galaxy Govenment (\textbf{GG}) developed the vaccine and eant to spread it as soon as possible. The vaccine can prevent uninfected creature from getting infected but cannot cure infected creatures. In addition, the vaccine can be spread rapidly exactly like \textbf{TABX-4869}.
+
+\textbf{GG} has observed that the mad scientist will begin to spread TABX-4869 from a particular planet as source. Unfortunately, \textbf{GG} cannot predict which planet is the source. Due to the linited amount of vaccine, \textbf{GG} can only select exactly one planet as the source of vaccine as soon as the source of \textbf{TABX-4869} is observed. (You can assume that \textbf{GG} and the mad scientist will start spreading both at the same time.)
+
+There are many great engineers and mathematicians in \textbf{GG}, so \textbf{GG} will always find the best vaccine source to minimize the disaster. However, they may not save all planets if the mad scientist is smart enough. Please help \textbf{GG} to compute the largest possible number of planets that will be infected.
+
+Note that a planet will be infected even if \textbf{TABX-4869} and the vaccine are spread to it at the same time.
+
+\begin{flushleft}
+{\color{red} \textbf{Input}}
+\end{flushleft}
+The first line contains an integer $T$ indicating the number of test cases, described by the following lines.
+
+For each test case, the first line contains two space-separated integers $N$ and $M$. Each of the following $M$ lines contains three space-separated integers $A$, $B$, $D$ that denote a route between planet $A$ and planet $B$ with distance $D$. Planets are numbered from $1$ to $N$. Each pair of planets has at most one star route between them.
+\begin{itemize}
+\item $1 \leq T \leq 20$
+\item $3 \leq N \leq 200$
+\item $N \leq M \leq N(N-1)/2$
+\item $0 < D < 10000$
+\end{itemize}
+
+\begin{flushleft}
+{\color{red} \textbf{Output}}
+\end{flushleft}
+For each test case, please output one line containing only one integer indicating the largest number of planet will be infected.
+
+\begin{flushleft}
+{\color{red} \textbf{Sample Input}}
+\end{flushleft}
+\begin{flushleft}
+2\\
+3 3\\
+1 2 5\\
+2 3 8\\
+3 1 6\\
+5 5\\
+1 2 1\\
+1 3 1\\
+1 4 1\\
+1 5 1\\
+3 4 1\\
+\end{flushleft}
+
+\begin{flushleft}
+{\color{red} \textbf{Sample Output}}
+\end{flushleft}
+\begin{flushleft}
+2\\
+4\\
+\end{flushleft}
+
+\newpage
