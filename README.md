@@ -23,3 +23,4 @@ X : Not join
 | 2019/10/5 | TOPC 2019 | --- | --- | --- | 3 |
 | 2019/10/21 | NCPC 2019 Final | --- | --- | --- | 2 |
 | 2019/10/23 | ITSA 74 | 6 | X | X | --- |
+| 2019/11/24 | ICPC Regional Asia Taipei-Hsinchu Site  | --- | --- | --- | 4 |
