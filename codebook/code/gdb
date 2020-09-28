@@ -1,0 +1,9 @@
+l (list)
+b (breakpoint)
+r (run)
+p $value (print $value)
+c (continue)
+q quit 
+step
+display $value
+info

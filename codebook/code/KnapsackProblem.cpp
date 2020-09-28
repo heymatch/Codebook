@@ -28,7 +28,7 @@ void knapsack(int n, int w){
 	price[n]	:	coin price
 */
 //bottom up
-void change(int m){
+void coinChange(int m){
 	memset(c, 0, sizeof(c))
 	c[0] = 1;
 	for(all i in n)	//all coin
@@ -42,7 +42,7 @@ void change(int m){
 	Knapsack/Coin Problem - Algorithm
 	first loop is item
 	Second loop is capacity (weight/value target)
-	Third loop(only appear in iteam limit case) = max(number amount, now value/this value)
+	Third loop(only appear in item limit case) = max(number amount, now value/this value)
 	
 	backpack structure:
 	Struct {weight,cost}

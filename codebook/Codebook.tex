@@ -4,6 +4,8 @@
 \documentclass[a4paper, landscape, 8pt]{article}
 \include{codestyle}
 
+\graphicspath{{image/}}
+
 \begin{document}
 \begin{multicols*}{3}
 \maketitle
@@ -11,76 +13,40 @@
 
 \section{Environment}
 \subsection{.vimrc}
-\lstinputlisting[language=vim]{Code/.vimrc}
+\lstinputlisting[language=vim]{code/.vimrc}
 \subsection{compile}
-\lstinputlisting[language=sh]{Code/compile.sh}
+\lstinputlisting[language=sh]{code/compile.sh}
 \subsection{copy}
-\lstinputlisting[language=sh]{Code/copy.sh}
+\lstinputlisting[language=sh]{code/copy.sh}
 \subsection{template}
-\lstinputlisting[language=c++]{Code/template.cpp}
+\lstinputlisting[language=c++]{code/template.cpp}
 
-\section{Data Structure}
-\subsection{Binary Tree}
-\lstinputlisting[language=c++]{Code/binary_tree.cpp}
-\subsection{Graph}
-\lstinputlisting[language=c++]{Code/graph.cpp}
+\section{Structure}
+\lstinputlisting[language=c++]{code/Structure.cpp}
 
-\section{Algorithm}
-\subsection{GCD}
-\lstinputlisting[language=c++]{Code/GCD.cpp}
-\subsection{LCM}
-\lstinputlisting[language=c++]{Code/LCM.cpp}
-\subsection{BFS}
-\lstinputlisting[language=c++]{Code/BFS.cpp}
-\subsection{DFS}
-\lstinputlisting[language=c++]{Code/DFS.cpp}
-\subsection{Floyd-Warshall Algorithm}
-\lstinputlisting[language=c++]{Code/FloydWarshall.cpp}
-\subsection{Dijkstra's Algorithm}
-\lstinputlisting[language=c++]{Code/Dijkstra.cpp}
-\subsection{Infix, Postfix, Prefix}
-\lstinputlisting[language=c++]{Code/InfixPrefixPostfix.cpp}
-\subsection{Knapsack Problem}
-\lstinputlisting[language=c++]{Code/KnapsackDP.cpp}
+\section{Code Note}
+\lstinputlisting[language=c++]{code/Code_Note.cpp}
 
-\section{Container}
-\subsection{vector}
-\lstinputlisting[language=c++]{Code/vector.cpp}
-\subsection{stack}
-\lstinputlisting[language=c++]{Code/stack.cpp}
-\subsection{queue}
-\lstinputlisting[language=c++]{Code/queue.cpp}
-\subsection{priority\_queue}
-\lstinputlisting[language=c++]{Code/priority_queue.cpp}
-\subsection{set}
-\lstinputlisting[language=c++]{Code/set.cpp}
-\subsection{map}
-\lstinputlisting[language=c++]{Code/map.cpp}
-\subsection{list}
-\lstinputlisting[language=c++]{Code/list.cpp}
+\section{Algorithm Note}
+\input{code/Algorithm_Note}
 
 \section{C++ Library}
-\subsection{algorithm}
-\lstinputlisting[language=c++]{Code/algorithm.cpp}
-\subsection{bitset}
-\lstinputlisting[language=c++]{Code/bitset.cpp}
-\subsection{string}
-\lstinputlisting[language=c++]{Code/string.cpp}
-\subsection{cmath}
-\lstinputlisting[language=c++]{Code/cmath.cpp}
-\subsection{iomanip}
-\lstinputlisting[language=c++]{Code/iomanip.cpp}
-\subsection{cstdio}
-\lstinputlisting[language=c++]{Code/cstdio.cpp}
+\lstinputlisting[language=c++]{code/Library.cpp}
+
+\section{Other Tool}
+\subsection{gdb}
+\lstinputlisting[]{code/gdb}
+\subsection{vim}
 
 \section{Note}
 \subsection{Preparing}
 \begin{lstlisting}[]
 check keyboard
 check mouse
-build environment(vim, g++, shell)
+check printer
 check judge system
 check response message
+build environment(vim, g++, shell)
 \end{lstlisting}
 \subsection{Response Message}
 \begin{lstlisting}[]
@@ -91,6 +57,15 @@ TIMELIMIT
 RUN-ERROR
 WRONG-ANSWER
 \end{lstlisting}
-
 \end{multicols*}
+
+\section{Image Note}
+\includegraphics[]{Bridge} \clearpage
+\includegraphics[]{BridgeConnect} \clearpage
+\includegraphics[]{ClosePair} \clearpage
+\includegraphics[]{ConvaxHall} \clearpage
+\includegraphics[]{MaximumFlow} \clearpage
+\includegraphics[]{MaximumFlow-2} \clearpage
+\includegraphics[]{StrongConnect} \clearpage
+
 \end{document}
