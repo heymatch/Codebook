@@ -48,11 +48,32 @@
 \end{algorithm}
 
 \begin{algorithm}[H]
+    \caption{Bridge($G, u$)}
+    $time = time + 1$ \\
+    $u.d = time$ \\
+    $u.low = time$ \\
+    \ForEach{$v \in G.Adj[u]$}{
+        \uIf{$v.d == 0$}{
+            $v.\pi = u$ \\ 
+            $Bridge(G, v)$ \\
+            $u.low = min(u.low, v.low)$ \\
+            \If{$v.low > u.d$}{
+                $\{u, v\}$ is a bridge
+            }
+
+        }
+        \ElseIf{$v \neq u.\pi$}{
+            $u.low = min(u.low, v.d)$
+        }
+    }
+\end{algorithm}
+
+\begin{algorithm}[H]
     \caption{TopologicalSort($G$)}
-    \ForEach{vertex $u in G.V$}{
+    \ForEach{vertex $u \in G.V$}{
         $u.color = \textmd{WHITE}$
     }
-    \ForEach{vertex $u in G.V$}{
+    \ForEach{vertex $u \in G.V$}{
         \If{$u.color = \textmd{WHITE}$}{
             $DFS_Visit(G, u)$
         }
